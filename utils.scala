@@ -29,3 +29,8 @@ println("This is value: "+fn2(23456, 345))
 /* Methods */
 def product (arg1: Int, arg2: Int): Int=arg1 * arg2
 println("Method product: "+ product(23, 2938))
+
+def getSquareString(input: Double): String =
+  val square = input * input
+  square.toString
+println(getSquareString(2.5))
