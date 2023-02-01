@@ -20,6 +20,9 @@ println ({
   x +23
 })
 
+//Type of variable
+println(var1.getClass())
+
 /* Fuctions anonymous */
 val fn1 = (arg1: Int)=> arg1 +23
 println(fn1(567))
