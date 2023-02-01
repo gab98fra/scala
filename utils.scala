@@ -37,3 +37,13 @@ def getSquareString(input: Double): String =
   val square = input * input
   square.toString
 println(getSquareString(2.5))
+
+//classes
+class Car(_type: String, year:Int):
+
+	def model(name: String):Unit =
+			println(_type + name + year)
+
+val object_car= Car("car: ", 2023)
+object_car.model("Audi: ")
+
