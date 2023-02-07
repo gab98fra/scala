@@ -3,7 +3,7 @@
 */
 
 //This is function remove gap
-def removeGap(param: String):String={param.replace(" ", "")}
+def removeGap(param: String):String={param.replace(" ", "").toLowerCase()}
 
 //Example 1
 val phrasesOne=List("This is a phrases ", "String ")
