@@ -2,7 +2,7 @@
     Scala version: 2.11.12
 */
 
-//This is a function for remove gap
+//Removes spaces
 def removeGap(param: String):String={param.replace(" ", "").toLowerCase()}
 
 //Example 1
