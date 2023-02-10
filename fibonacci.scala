@@ -1,4 +1,8 @@
- def fibonacci(n: Int)={
+/*
+    Scala version: 2.11.12
+*/
+
+def fibonacci(n: Int)={
    	var n1=0
     var n2=1
     var aux=0
