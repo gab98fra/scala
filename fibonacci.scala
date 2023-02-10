@@ -22,4 +22,4 @@ def fibonacci(n: Int)={
    
  }
 
-print(fibonacci(2))
+fibonacci(2)
